@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+
+        android:id="@+id/nearby"
+        android:title="Nearby"
+        android:icon="@drawable/nearby"></item>
+
+    <item
+        android:id="@+id/favorites"
+        android:title="Favorites"
+        android:icon="@drawable/favorites">
+    </item>
+
+    <item
+        android:id="@+id/metro_bus"
+        android:title="Metro Bus"
+        android:icon="@drawable/bus"></item>
+
+    <item
+        android:id="@+id/metro_rail"
+        android:title="Metro Rail"
+        android:icon="@drawable/metro">
+    </item>
+
+    <item
+        android:id="@+id/metro_map"
+        android:title="Metro Map"
+        android:icon="@drawable/map"></item>
+
+</group>
+
+</menu>
