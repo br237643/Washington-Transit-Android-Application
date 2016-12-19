@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_route_stations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="dcmetro.ss.com.dcmetro.RouteStations"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Route Directions"
+        android:ems="8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="Sorry, Only one direction Available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/textView2"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:text="Sorry, Only one direction Available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+</LinearLayout>
